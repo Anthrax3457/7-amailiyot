@@ -1,0 +1,21 @@
+.site-menu {
+  background: url(images/templatemo-menu.png) no-repeat;
+}
+
+.site-menu__link:hover {
+  background: url(images/templatemo-menu-hover.jpg) repeat-x;
+}
+
+.site-menu__link.active {
+  color: #492545;
+  background: url(images/templatemo-menu-hover.jpg) repeat-x;
+}
+
+/* main */
+.main {
+  background: url(images/templatemo-content-top.png) no-repeat top;
+}
+
+.main-wrapper {
+  background: url(images/templatemo-content-bottom.png) no-repeat bottom;
+}

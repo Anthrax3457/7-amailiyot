@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* height: 100%; */
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: flex;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  color: #333;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  background-color: #b45489;
+  background-image: url(images/templatemo-body.jpg);
+  background-repeat: repeat-x;
+  background-position: top;
+}
+
+#root {
+  /* height: 100%; */
+  width: 100%;
+  background: url(images/body_top.jpg) top repeat-x;
+}
+
+.App {
+  /* width: 100%; */
+  height: 100%;
+  background: url(images/body_bottom.jpg) bottom repeat-x;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* .site-container {
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+} */
